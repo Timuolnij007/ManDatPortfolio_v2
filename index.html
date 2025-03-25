@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/mansStils.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- The sidebar -->
+<!--<div class="sidebar">
+  <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="#services"><i class="fa fa-fw fa-wrench"></i> Services</a>
+  <a href="#clients"><i class="fa fa-fw fa-user"></i> Clients</a>
+  <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+</div>-->
+
+<!-- Side navigation -->
+<!-- <div class="sidenav">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <button class="dropdown-btn">Dropdown
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+    <a href="#">Contact</a>
+  </div> -->
+  
+  <!-- Page content -->
+  <!-- <div class="main">
+    ...
+  </div> -->
+
+
+    <div class="sidenav">
+        <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;"><i class="fa fa-fw fa-home"></i> Sākums</a>
+        <br>
+        <a>Lapas saturs:</a><br>
+
+        <button class="dropdown-btn">Attēlu apstrāde
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#rastGraf">Rastrgrafika</a>
+            <a href="#vektGraf">Vektorgrafika</a>
+        </div>
+        <a href="#word">Teksta apstrāde</a>
+        <a href="#excel">Izklājlapas</a>
+        <a href="#logoProj">Video</a>
+        <a href="./otrais.html">Individuālā tēma <i class="fa fa-caret-right"></i></a>
+        <!-- <a style="bottom: 100%;">@Timurs Dargelis</a> -->
+
+        <!-- <footer>2025 @Timurs Dargelis</footer> -->
+    </div>
+
+    <div class="main">
+        <h1>Mans datorikas portfolio</h1>
+        <p>Šeit es parādīju visu iepriekš mācīto pagajušajā semestrā datorkas stundā.</p>
+        <h2>Attēlu apstrāde</h2>
+        <p>Pirmajā gadu ceturdaļā mēs mācījāmies apstrādāt attēlus, izmantojot GIMP un InkScape.</p>
+        <h3 id="rastGraf">Rastrgrafika</h3>
+        <p>Mēs mācījāmies, kā apstradāt fotogrāfijas un citus rastru attēlus, izmantojot GIMP.</p>
+        <figure>
+            <img src="./images/Capture7.PNG" alt="gimp2" width="600px" height="350px">
+            <figcaption>GIMP. Attēlu apstrāde.</figcaption>
+        </figure>
+        <figure>
+            <img src="./images/baneris4.gif" alt="gimp1" width="600px" height="350px">
+            <figcaption>GIMP. Gif baneris 1.</figcaption>
+        </figure>
+        <figure>
+            <img src="./images/animation1.gif" alt="gimp2" width="600px" height="350px">
+            <figcaption>GIMP. Animācija 2.</figcaption>
+        </figure>
+        <h3 id="vektGraf">Vektorgrafika</h3>
+        <p>Mēs mācījāmies, kā pašiem veidot attēlus, izmantojot InkScape rīkus.</p>
+        <figure>
+            <img src="./images/Capture3.PNG" alt="inkscape1" width="600px" height="350px">
+            <figcaption>Inkscape. Logo 1.</figcaption>
+        </figure>
+        <figure>
+            <img src="./images/zimejums1.svg" alt="gimp2" width="600px" height="350px">
+            <figcaption>Inkscape. Dažādu rīku izmantošana.</figcaption>
+        </figure>
+
+        <h2 id="word">Teksta apstrāde</h2>
+        <p>Otrajā gadu ceturdaļā mēs mācījāmies apstradāt tekstus, izmantojot Microsoft Word.</p>
+        <p>Mēs labāk iemācījāmies, kā formatēt tekstu, izmantojot visus iespējamus Word rīkus, kā veidot un stradāt ar viedniem, un uzzinājām par <i>Mailings</i> rīku pastu sapludināšanai.</p>
+        
+        <figure>
+            <img src="./images/Capture5.PNG" alt="word1" width="600px" height="350px">
+            <figcaption>Word. Mailings.</figcaption>
+        </figure>
+        <figure>
+            <img src="./images/Capture6.PNG" alt="word2" width="600px" height="350px">
+            <figcaption>Word. Stili. Satura rādītājs.</figcaption>
+        </figure>
+
+        <h2 id="excel">Izklājlapas</h2>
+        <p>Otrās gadu ceturdaļas beigā un trešās ceturdaļas sakumā mēs mācījāmies stradāt ar izklājlapām, izmantojot Microsoft Excel.</p>
+        <p>Mēs labāk iemācījāmies, kā stradāt ar grafikiem un datu analīzi, kā filtrēt un veidot savas tabulas, kā arī uzzinājām dažas jaunas excel funkcijas un formulas, piemēram, līniju iesaldēšana un linearās tendences funkcijas.</p>
+        <figure>
+            <img src="./images/Capture1.PNG" alt="excel1" width="600px" height="350px">
+            <figcaption>Excel. Grāfiki. Tendences.</figcaption>
+        </figure>
+        <figure>
+            <img src="./images/Capture2.PNG" alt="excel2" width="600px" height="350px">
+            <figcaption>Excel. Tables. Formulas.</figcaption>
+        </figure>
+
+        <h2 id="logoProj">3D logo klucītis. Video</h2>
+        <p>Pirmā semestra beigās mēs veicajām projektu, kurā mums bija jāmācās lietot Tinkecad, ar kuru mums bija jāiveido 3d klūcīša modelis ar piedavāto kompanijas logo. Pēc tam bija jāizdrukā modelis, un visu projekta veikšanas procesu jāfilme un jāizdara video par to.</p>
+        <figure>
+            <img src="./images/tinkercad1.JPG" alt="excel2" width="600px" height="350px">
+            <figcaption>Tinkercad.</figcaption>
+        </figure>
+        <figure style="margin-left: 40px;">
+            <video width="600" height="338" controls>
+                <source src="./images/14122024_LogoKubs_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>Video.</figcaption>
+        </figure>
+        
+        <hr>
+        <footer style="text-align: center;">2025 @Timurs Dargelis</footer>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+<script>
+    //* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+        } else {
+        dropdownContent.style.display = "block";
+        }
+    });
+    }
+</script>
+</html>
